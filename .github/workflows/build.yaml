@@ -1,5 +1,6 @@
 name: Hosting Static Website
-on: push:
+on: 
+  push:
     branches:
       - '*'
 jobs: build:
